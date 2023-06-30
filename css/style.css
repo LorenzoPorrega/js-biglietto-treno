@@ -1,0 +1,29 @@
+/* HEADER */
+
+header h1{
+    cursor: pointer;
+    animation: blinker 2s linear infinite;
+}
+
+/* MAIN */
+
+main{
+    height: calc(100vh - 126px);
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card ul, .card-header{
+    font-weight: bold;
+}
+
+.card ul li div{
+    font-weight: 600;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
